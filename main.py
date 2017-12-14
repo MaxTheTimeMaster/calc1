@@ -6,11 +6,11 @@ def create_screen():
 def Objects():
   size = "?"
   size1 = "?"
-  class buttons(width, height, selfs):
+class buttons(width, height, selfs):
     def __init__(self, Class, width, height):
-      self.width1 = width
-      self.height1 = height
-      self.Class = Button(root, width1, height1)
+    self.width1 = width
+    self.height1 = height
+    self.Class = Button(root, width1, height1)
   button1 = class()
      
       
